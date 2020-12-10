@@ -1,0 +1,241 @@
+body{
+  background-color: black;
+  color:white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+
+}
+
+h1{
+  font-size: 30px;
+
+}
+h5{
+  font-size: 12px;
+  float: right;
+  color: yellow;
+  font-weight: 700;
+}
+h6{
+  font-size: 12px;
+  color: yellow;
+  font-weight: 700;
+}
+.base {
+width: 100%;
+z-index: 0;
+}
+
+
+.toplayer{
+  position: fixed;
+z-index:1;
+
+border: 1px solid white;
+height: 88vh; /* For 100% screen height */
+    width:  90.5vw;
+margin-left: 60px;
+margin-right: 200px;
+top:0;
+}
+
+.toplayer2 {
+  position: fixed;
+width:  86vw;
+height: 88vh;
+padding: 20px;
+padding-bottom: 40px;
+margin-left: 90px;
+margin-right: 0px;
+top:0;
+//background-color: red;
+z-index: 2;
+
+}
+
+h2{
+  font-size:14px;
+}
+
+h7{
+  font-size:14px;
+}
+
+.base h2{
+  font-size:16px;
+  font-weight: bold;
+
+}
+.rot {
+  transform: rotate(90deg);
+  position: fixed;
+  right: -120px;
+  top: 280px;
+  z-index: -1;
+ 
+}
+
+.rot_4 {
+  transform: rotate(90deg);
+  position: fixed;
+  right: -110px;
+  top: 280px;
+  z-index: -1;
+ 
+}
+.malq1{
+  transform: rotate(90deg);
+  position: fixed;
+  left: -150px;
+  top: 280px;
+  z-index: 1;
+ 
+}
+.rot3 {
+  transform: rotate(90deg);
+  position: fixed;
+  right: -150px;
+  top: 280px;
+  z-index: -1;
+ 
+}
+
+
+.rot2 {
+  transform: rotate(90deg);
+  position: fixed;
+  left: -100px;
+  top: 280px;
+  z-index: -1;
+ 
+}
+.rot_3 {
+  transform: rotate(90deg);
+  position: fixed;
+  left: -110px;
+  top: 280px;
+  z-index: -1;
+ 
+}
+.rot_1 {
+  transform: rotate(90deg);
+  position: fixed;
+  left: -120px;
+  top: 280px;
+  z-index: 1;
+ 
+}
+
+.malq2 {
+  transform: rotate(90deg);
+  position: fixed;
+  left: -105px;
+  top: 280px;
+  z-index: 1;
+ 
+}
+.malq3 {
+  transform: rotate(90deg);
+  position: fixed;
+  left: -170px;
+  top: 280px;
+  z-index: 1;
+ 
+}
+.active {
+	opacity: 1;
+}
+
+.bottomnav{
+position: fixed;
+  bottom: 0;
+  width: 98%;
+  padding-right: 80px;
+   padding-left: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  left: 10px;
+}
+
+
+.bottomrowq{
+  position: relative;
+  top:78vh;
+  right: -5px;
+}
+
+.hline{
+  width: 100%;
+  height: 0.5px;
+  background-color: white;
+}
+
+audio{
+
+  width:100%;
+  height: 45px;
+}
+
+.mt50{
+  margin-top:-10px;
+}
+
+.mb50{
+  margin-top:20px;
+}
+
+.mt25{
+  margin-top:-20px;
+}
+.img{
+  width:100%;
+  height: 100%;
+}
+
+.ml50 {
+	margin-right: 30px: 
+}
+
+.inactive{
+  opacity: 0.5;
+}
+
+.bottomnav h2 {
+	font-weight: normal;
+}
+
+.num02, .num03{
+    opacity: 0.5;
+    font-weight: normal;
+    z-index: 0;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border: none;
+
+}
+
+.quest2{
+  opacity: 0;
+}
+
+.quest3{
+  opacity: 0;
+}
+
+.lowopac{
+  opacity: 0.2;
+}
+
+.lighter{
+	font-weight: 50;
+
+}
